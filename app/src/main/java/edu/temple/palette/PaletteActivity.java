@@ -28,7 +28,7 @@ public class PaletteActivity extends AppCompatActivity {
         BaseAdapter colorPicker = new BaseAdapter() {
             //0 is unelectable when app is first run so we use it as a prompt so the user can select red immediately
             int[] colors = new int[]{0, Color.RED, Color.WHITE, Color.YELLOW, Color.GREEN, Color.MAGENTA};
-            String[] colorNames = new String[]{"SELECT A COLOR", "RED", "WHITE","YELLOW", "GREEN", "MAGENTA"};
+            String[] colorNames = getResources().getStringArray(R.array.spinner_color_names);
             @Override
             public int getCount() {
                 return colors.length;

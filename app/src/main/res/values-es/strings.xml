@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paleta</string>
+    <string-array name="spinner_color_names">
+        <item>SELLECIONE UN COLOR</item>
+        <item>ROJO</item>
+        <item>BLANCO</item>
+        <item>AMARILLO</item>
+        <item>VERDE</item>
+        <item>MAGENTA</item>
+    </string-array>
+</resources>

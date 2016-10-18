@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Palette</string>
+    <string-array name="spinner_color_names">
+        <item>PICK A COLOR</item>
+        <item>RED</item>
+        <item>WHITE</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>MAGENTA</item>
+    </string-array>
 </resources>
